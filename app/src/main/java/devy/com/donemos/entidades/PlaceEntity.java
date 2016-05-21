@@ -9,6 +9,8 @@ public class PlaceEntity {;
     private String lng_pos;
 
 
+
+
     public int getId() {
         return id;
     }
