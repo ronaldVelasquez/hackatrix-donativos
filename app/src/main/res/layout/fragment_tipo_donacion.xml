@@ -2,13 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="5dp">
+    android:padding="5dp"
+    android:background="@android:color/white">
 
 
-    <TextView
+    <com.tismart.tsmviews.views.CustomTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
+        android:layout_marginTop="7dp"
         android:text="Selección el tipo de donación que deseas realizar."/>
 
     <LinearLayout
@@ -27,12 +29,17 @@
                 android:layout_weight="5"
                 android:layout_margin="2dp">
 
-                <TextView
+                <com.tismart.tsmviews.views.CustomTextView
+                    android:id="@+id/tvRopa"
+                    android:background="@color/colorRopa"
                     android:gravity="center"
                     android:padding="30dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Ropa"/>
+                    android:text="Ropa"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
@@ -42,12 +49,17 @@
                 android:layout_weight="5"
                 android:layout_margin="2dp">
 
-                <TextView
+                <com.tismart.tsmviews.views.CustomTextView
+                    android:id="@+id/tvInsumo"
                     android:gravity="center"
                     android:padding="30dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Alimentos"/>
+                    android:text="Alimentos"
+                    android:background="@color/colorInsumo"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
@@ -58,12 +70,17 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp">
 
-            <TextView
+            <com.tismart.tsmviews.views.CustomTextView
+                android:id="@+id/tvDinero"
                 android:padding="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Ropa"/>
+                android:text="Dinero"
+                android:background="@color/colorDinero"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
 
         </LinearLayout>
 
