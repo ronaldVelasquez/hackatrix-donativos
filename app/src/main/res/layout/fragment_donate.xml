@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="devy.com.donemos.fragments.DonateFragment">
+    <com.tismart.tsmviews.views.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_logo"
+        android:id="@+id/tv_question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:gravity="center"
+        android:text="¿Donde deseas donar?"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <com.tismart.tsmviews.views.CustomButton
+            android:id="@+id/btn_random"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Aleatorio" />
+
+        <com.tismart.tsmviews.views.CustomButton
+            android:id="@+id/btn_show_places"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="ver" />
+    </LinearLayout>
+
+</RelativeLayout>

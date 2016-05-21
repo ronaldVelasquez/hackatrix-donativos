@@ -1,10 +1,16 @@
 package devy.com.donemos.activity;
 
-/**
- * Created by ronald on 21/05/16.
- */
-public class MainActivity {
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
+import devy.com.donemos.R;
 
+public class MainActivity extends AppCompatActivity {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+    }
 }

@@ -1,9 +1,11 @@
-package devy.com.donemos;
+package devy.com.donemos.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import devy.com.donemos.R;
 
 public class SplashActivity extends AppCompatActivity {
 

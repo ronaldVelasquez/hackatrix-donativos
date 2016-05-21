@@ -1,10 +1,6 @@
 package devy.com.donemos.entidades;
 
-/**
- * Created by ronald on 21/05/16.
-
- */
-public class LugarDonativo {;
+public class PlaceEntity {;
 
     private int id;
     private String nombre;
