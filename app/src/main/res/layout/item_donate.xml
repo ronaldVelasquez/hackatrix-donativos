@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <com.tismart.tsmviews.views.CustomTextView
+        android:id="@+id/tv_name_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Tipo de elemento" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_weight="1"
+        android:gravity="center|end">
+
+        <com.tismart.tsmviews.views.CustomTextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero" />
+
+        <com.tismart.tsmviews.views.CustomButton
+            android:id="@+id/btn_more"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="+" />
+
+        <com.tismart.tsmviews.views.CustomButton
+            android:id="@+id/btn_less"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="-" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
